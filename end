@@ -1,0 +1,44 @@
+[33mcommit d5bd4c65ad70ddc00437bd87a72eed114578ecdf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Nikita Pastukhov <pastukhovns@yandex.ru>
+Date:   Fri Feb 2 22:32:18 2024 +0500
+
+    Deleted example files
+
+ pom.xml                                            | 12 [32m+++[m
+ src/main/java/org/example/Application.java         | 98 [31m----------------------[m
+ src/main/java/org/example/ApplicationMetadata.java | 42 [31m----------[m
+ src/main/java/org/example/Calculator.java          | 10 [31m---[m
+ .../java/org/example/CommandLineArguments.java     | 35 [31m--------[m
+ src/test/java/org/example/ApplicationTest.java     | 91 [31m--------------------[m
+ 6 files changed, 12 insertions(+), 276 deletions(-)
+
+[33mcommit 8acbd2a49d588b181fc7cefac03cbb702cca3c5c[m[33m ([m[1;31mpredproj/master[m[33m)[m
+Author: Nikita Pastukhov <pastukhovns@yandex.ru>
+Date:   Mon Jan 29 22:38:50 2024 +0500
+
+    Adding firstChange
+
+ firstChange.java | 5 [32m+++++[m
+ 1 file changed, 5 insertions(+)
+
+[33mcommit 1574e69291af75dbe18e368f5deaddc8282ae729[m[33m ([m[1;33mtag: [m[1;33mversion_1.0[m[33m)[m
+Author: Nikita Pastukhov <pastukhovns@yandex.ru>
+Date:   Mon Jan 29 14:07:07 2024 +0500
+
+    Initial commit of the project
+
+ .github/workflows/build.yml                        |  47 [32m++++[m
+ .gitignore                                         |  45 [32m++++[m
+ .pre-commit-config.yaml                            |  11 [32m+[m
+ LICENSE                                            | 201 [32m++++++++++++++[m
+ README.md                                          |  27 [32m++[m
+ lombok.config                                      |   8 [32m+[m
+ pom.xml                                            | 290 [32m+++++++++++++++++++++[m
+ src/main/java/org/example/Application.java         |  98 [32m+++++++[m
+ src/main/java/org/example/ApplicationMetadata.java |  42 [32m+++[m
+ src/main/java/org/example/Calculator.java          |  10 [32m+[m
+ .../java/org/example/CommandLineArguments.java     |  35 [32m+++[m
+ src/main/resources/log4j2.xml                      |  37 [32m+++[m
+ src/test/java/org/example/ApplicationTest.java     |  91 [32m+++++++[m
+ src/test/resources/org/example/example.txt         |   1 [32m+[m
+ 14 files changed, 943 insertions(+)
